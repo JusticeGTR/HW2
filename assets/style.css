@@ -1,0 +1,87 @@
+  /* body::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:black; 
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background: rgb(27.6, 63, 106.6); 
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background:rgb(75, 122.8, 179.4); 
+  } */
+
+
+body {
+    background-color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none; 
+  }
+  
+
+  a:hover, a:active {
+    color:rgb(75, 122.8, 179.4);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+img {
+    display:none;
+}
+
+  #headerPic {
+      object-fit:cover;
+      object-position:center;
+      height:auto;
+      width:101%;
+      margin: -2% -1% 0 -1%;
+  }
+
+h1 {
+    color:white;
+    background-color:rgb(27.6, 63, 106.6);
+    /* position:relative;
+    bottom:325px; */
+    font-size:50px;
+    margin-left: 10px;
+    display:inline;
+    padding:15px;
+}
+
+
+h2 {
+    background-color:rgb(27.6, 63, 106.6);
+}
+
+nav {
+}
+
+.navList {
+    list-style: none; 
+    text-align:right;  
+}
+
+.navItems {
+   /* float:left;
+   padding:10px; */
+   display:inline;
+   background-color:rgb(27.6, 63, 106.6);
+
+
+}
+
+.contactList {
+    list-style:none;
+}
+
+.contactList {
+    background-color:rgb(27.6, 63, 106.6);
+}
