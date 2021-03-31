@@ -125,19 +125,32 @@ nav {
 .aboutMe {
     display:flex;
     color:var(--main-text-color);
-    background-color:var(--main-background-color);
 }
 
 .rightBorder {
     color:var(--main-text-color);
     background-color:var(--main-background-color);
     border-right: 5px solid var(--highlight-background-color);
+    background-color:var(--main-background-color);
+
 }
 .leftBorder {
     border-left: 5px solid var(--highlight-background-color);
+    background-color:var(--main-background-color);
 }
+
+/* .rotate {
+    position: relative;
+    top: 109px;
+    margin: 0px 0px 0px 20px;
+    transform: rotate(90deg);
+    transform-origin: top right;
+} */
+
 p {
     text-align:right;
+    background-color:var(--main-background-color);
+
 }
 
 .me {
@@ -158,12 +171,13 @@ p {
 
 .contactList {
     list-style:none;
-}
-
-.contactList {
     background-color:var(--main-background-color);
 }
 
     /* .resume {
+            background-color:var(--main-background-color);
+    } */
 
+    /* footer {
+        background-color:var(--main-background-color);
     } */
