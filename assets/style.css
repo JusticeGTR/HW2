@@ -34,14 +34,14 @@ body {
 
 a:link, a:visited {
     color: var(--main-text-color);
-    background-color: transparent;
+    background-color: var(--main-background-color);
     text-decoration: none; 
   }
   
 
   a:hover, a:active {
     color:var(--highlight-background-color);
-    background-color: transparent;
+    background-color: var(--main-background-color);
     text-decoration: none;
   }
 
@@ -49,20 +49,20 @@ a:link, a:visited {
     display:none;
 } */
 
-  /* #headerPic {
-      object-fit:cover;
-      object-position:center;
-      height:auto;
-      width: 101.4%;
-      margin: -5% -1% 0 -1%;
-  } */
+#headerPic{
+    height: auto;
+    width: 100%;
+    margin: 0 0 -122px 0;
+  }
   
-  header {
+  /* header {
+      display:flex;
       background-image:url("./images/l7bvcy58miw11.gif");
       height:1050px;
+      width:100%;
       margin:-8px;
 
-  }
+  } */
 
   /* main goal here is to have it be sticky to the bottom on load in and sticky to the top on scroll. sticky position should be able to do that but not sure how*/
 nav {
@@ -71,6 +71,7 @@ nav {
     position: sticky;
     top: -70px;
 }
+
 
   #home {
     /* position:sticky;
@@ -81,22 +82,43 @@ nav {
     display:inline;
     padding:15px;
 }
-
+/* 
 .navList {
     display:inline;
     margin-right:-10px;
-    /* position:relative; */
-    /* bottom:235px; */
+    position:relative; 
+    bottom:235px;
     padding: 20px;
     font-size:40px;
-}
+} */
+.navList {
+    display: flex;
+    text-align:right;
+    /* background-color:var(--main-background-color); */
+    /* border-left:10px solid var(--highlight-background-color); */
+    position:relative;
+    top: -105px;
+    font-size: 2em;
+    padding:0 15px;
+    margin: 0 -5px;
+  }
+
+  .navList a:first-child {
+    margin-right: auto;
+    font-weight:bolder;
+    font-size:70px;
+  }
 
 .navItems {
-   /* display:block;  */
-   padding:20px;
-   margin:-10px;
+    text-align:right;
+    position:-webkit-sticky;
+    position: sticky;
+    top: -70px;
+    padding:20px;
+    margin:-10px;
     display:inline;
     background-color:var(--main-background-color);
+    align-self: baseline;
 
 }
 
@@ -104,13 +126,15 @@ nav {
     display:flex;
     color:var(--main-text-color);
     background-color:var(--main-background-color);
-    border-left:10px solid var(--highlight-background-color);
 }
 
 .rightBorder {
     color:var(--main-text-color);
     background-color:var(--main-background-color);
     border-right: 5px solid var(--highlight-background-color);
+}
+.leftBorder {
+    border-left: 5px solid var(--highlight-background-color);
 }
 p {
     text-align:right;
