@@ -25,7 +25,7 @@ The finished page:
 https://justicegtr.github.io/HW2/
 
 ## Visuals
-![Portfolio webpage](https://github.com/JusticeGTR/HW2/blob/main/assets/images/Screenshot%20(53).png)
+![Portfolio webpage](https://github.com/JusticeGTR/HW2/blob/main/assets/images/Screenshot.png)
 
 ## Usage
 
