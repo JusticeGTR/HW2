@@ -21,6 +21,11 @@ body::-webkit-scrollbar {
     background:rgb(75, 122.8, 179.4); 
   }
 
+  * {
+      box-sizing:border-box;
+      padding:0;
+      margin:0;
+  }
 
 body {
     background-color:var(--page-background-color);
@@ -44,67 +49,75 @@ a:link, a:visited {
     display:none;
 } */
 
-  #headerPic {
+  /* #headerPic {
       object-fit:cover;
       object-position:center;
       height:auto;
       width: 101.4%;
       margin: -5% -1% 0 -1%;
+  } */
+  
+  header {
+      background-image:url("./images/l7bvcy58miw11.gif");
+      height:1050px;
+      margin:-8px;
+
   }
 
   /* main goal here is to have it be sticky to the bottom on load in and sticky to the top on scroll. sticky position should be able to do that but not sure how*/
-h1 {
-    background-color:var(--main-background-color);
-    position:relative;
-    bottom:200px;
-    font-size:70px;
-    margin-left: -10px;
-    display:inline;
-    padding:15px;
-    border-right:10px solid var(--highlight-background-color);
+nav {
+    text-align:right;
+    position:-webkit-sticky;
+    position: sticky;
+    top: -70px;
 }
 
-
-h2 {
-    background-color:var(--main-background-color);
+  #home {
+    /* position:sticky;
+    top:0; */
+    float:left;
+    font-size:80px;
+    margin-left: 5px;
+    display:inline;
+    padding:15px;
 }
 
 .navList {
-    /* display:inline; */
-    text-align:right;
-    background-color:var(--main-background-color);
-    padding:20px 20px 20px 0px;
+    display:inline;
     margin-right:-10px;
-    border-left:10px solid var(--highlight-background-color);
-    position:relative;
-    bottom:235px;
+    /* position:relative; */
+    /* bottom:235px; */
+    padding: 20px;
+    font-size:40px;
 }
 
 .navItems {
    /* display:block;  */
-   padding:10px;
-   text-align:right;
+   padding:20px;
+   margin:-10px;
     display:inline;
-
+    background-color:var(--main-background-color);
 
 }
 
 .aboutMe {
     display:flex;
-    flex-direction: row;
     color:var(--main-text-color);
-    background-color:var(--main-background-color)
-    border-left:10px solid var(--highlight-background-color)
+    background-color:var(--main-background-color);
+    border-left:10px solid var(--highlight-background-color);
 }
 
 .rightBorder {
-    display:inline;
     color:var(--main-text-color);
     background-color:var(--main-background-color);
     border-right: 5px solid var(--highlight-background-color);
 }
 p {
     text-align:right;
+}
+
+.me {
+
 }
 
 /* .work {
