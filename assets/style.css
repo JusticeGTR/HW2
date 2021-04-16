@@ -128,9 +128,16 @@ nav {
 /* .main {
 } */
 
+h2.rightBorder {
+    display:inline-block;
+}
 .aboutMe {
     display:flex;
     color:var(--main-text-color);
+}
+
+.aboutMe h2 {
+    font-size: 40px;
 }
 
 .rightBorder {
@@ -140,6 +147,7 @@ nav {
     background-color:var(--main-background-color);
 
 }
+
 .leftBorder {
     border-left: 5px solid var(--highlight-background-color);
     background-color:var(--main-background-color);
@@ -164,8 +172,15 @@ p {
 } */
 
 .work {
-display:block;
-flex-direction:row;
+display:flex;
+flex-direction:column;
+margin: 0 auto;
+}
+
+.work div {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
 }
 
 .firstWork {
