@@ -1,5 +1,5 @@
-# HW2
-# Homework 1
+# Portfolio webpage
+
 This is our second homework assignment in nu-chi-fsf-ft-03-2021-u-c! 
 
 In this excercise, we were tasked with creating our own portfolio page to show to potential employers using advanced CSS and clean coding initiatives. 
